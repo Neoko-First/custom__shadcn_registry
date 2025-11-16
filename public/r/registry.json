@@ -1,17 +1,17 @@
 {
     "$schema": "https://ui.shadcn.com/schema/registry.json",
     "name": "Registry Custom de Alexandre",
-    "homepage": "https://alexandre-artisien.fr",
+    "homepage": "https://customshadcnregistry.vercel.app",
+    "author": "Alexandre Artisien <alexandre-artisien.fr>",
     "items": [
         {
-            "name": "hello-world",
-            "type": "registry:block",
-            "title": "Hello World",
-            "description": "A simple hello world component.",
+            "name": "input",
+            "type": "registry:ui",
+            "title": "Input",
             "files": [
                 {
-                    "path": "registry/new-york/blocks/hello-world.tsx",
-                    "type": "registry:component"
+                    "path": "registry/new-york/ui/input.tsx",
+                    "type": "registry:ui"
                 }
             ]
         }

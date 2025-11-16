@@ -1,16 +1,17 @@
 {
     "$schema": "https://ui.shadcn.com/schema/registry.json",
     "name": "Registry Custom de Alexandre",
-    "homepage": "https://alexandre-artisien.fr",
+    "homepage": "https://customshadcnregistry.vercel.app",
+    "author": "Alexandre Artisien <alexandre-artisien.fr>",
     "items": [
         {
-            "name": "hello-world",
+            "name": "input",
             "type": "registry:ui",
-            "title": "Hello World",
-            "description": "A simple hello world component.",
+            "title": "Input",
+            "dependencies": ["lucide-react"],
             "files": [
                 {
-                    "path": "registry/new-york/ui/hello-world.tsx",
+                    "path": "registry/new-york/ui/input.tsx",
                     "type": "registry:ui"
                 }
             ]

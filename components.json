@@ -19,6 +19,11 @@
         "hooks": "@/hooks"
     },
     "registries": {
-        "@leafcn": "https://customshadcnregistry.vercel.app/r/{name}.json"
+        "@leafcn": {
+            "url": "https://customshadcnregistry.vercel.app/r/{name}.json",
+            "headers": {
+                "Authorization": "Bearer ${REGISTRY_TOKEN}"
+            }
+        }
     }
 }
