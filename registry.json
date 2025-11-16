@@ -5,13 +5,13 @@
     "items": [
         {
             "name": "hello-world",
-            "type": "registry:block",
+            "type": "registry:ui",
             "title": "Hello World",
             "description": "A simple hello world component.",
             "files": [
                 {
-                    "path": "registry/new-york/blocks/hello-world.tsx",
-                    "type": "registry:component"
+                    "path": "registry/new-york/ui/hello-world.tsx",
+                    "type": "registry:ui"
                 }
             ]
         }
